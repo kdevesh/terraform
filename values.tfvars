@@ -1,0 +1,5 @@
+subscription_id = "ed84d1f1-962e-4216-8a58-ed1ea898d8db"
+client_id = "a861e812-c7c7-484d-a439-15508ff965d4"
+client_secret = "9HCUYNmDggKoIbcIFvsJDRRj0OWXh4gqM62Apz/tBug="
+tenant_id = "335836de-42ef-43a2-b145-348c2ee9ca5b"
+control_plane = "testing"
