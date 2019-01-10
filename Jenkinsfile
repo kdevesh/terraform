@@ -25,7 +25,7 @@ pipeline {
         }
         stage('terraform plan') {
             steps {
-                sh 'ls ./terraform; sudo /usr/local/bin/terraform apply -var-file="./terraform/values.tfvars" ./terraform'
+                sh 'ls ./terraform; sudo /usr/local/bin/terraform apply -var-file="./terraform/values.tfvars" ./terraform -auto-approve'
             }
         }
         stage('terraform ended') {
