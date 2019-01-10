@@ -25,7 +25,7 @@ pipeline {
         }
         stage('terraform plan') {
             steps {
-                sh 'ls ./jenkins; sudo /usr/local/bin/terraform apply ./terraform'
+                sh 'ls ./terraform; sudo /usr/local/bin/terraform apply ./terraform'
             }
         }
         stage('terraform ended') {
